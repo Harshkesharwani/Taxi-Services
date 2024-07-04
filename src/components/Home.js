@@ -54,13 +54,10 @@ const Home = () => {
   const [category, setCategory] = useState('All');
   const [index, setIndex] = useState(-1);
   const [visibleImages, setVisibleImages] = useState(images.slice(0, 4));
-
   const filteredImages = category === 'All' ? visibleImages : visibleImages.filter(img => img.type === category);
-
   const handleLoadMore = () => {
     setVisibleImages(images);
   };
-
 
   const [showMore, setShowMore] = useState(false);
 
@@ -76,7 +73,6 @@ const Home = () => {
 
   return (
     <Container maxWidth={false} disableGutters>
-      {/* Hero Section */}
       <Box sx={{
         position: 'relative',
         overflow: 'hidden'
