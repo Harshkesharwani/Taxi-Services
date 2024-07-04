@@ -1,19 +1,20 @@
 {
   "files": {
     "main.css": "/Taxi-Services/static/css/main.bdf20a04.css",
-    "main.js": "/Taxi-Services/static/js/main.283cf876.js",
+    "main.js": "/Taxi-Services/static/js/main.ca367784.js",
     "static/js/453.fa5cb48b.chunk.js": "/Taxi-Services/static/js/453.fa5cb48b.chunk.js",
     "static/media/car.png": "/Taxi-Services/static/media/car.bfe557322693237c540a.png",
     "static/media/logo.png": "/Taxi-Services/static/media/logo.8ff4b606beb5c840c14f.png",
+    "static/media/favicon.png": "/Taxi-Services/static/media/favicon.f458522b6f23c0b63513.png",
     "static/media/bg1.jpg": "/Taxi-Services/static/media/bg1.5fd1704ea1cf66e3eaaf.jpg",
     "static/media/ios.png": "/Taxi-Services/static/media/ios.7b2eb86c5a1bd6d42e9d.png",
     "index.html": "/Taxi-Services/index.html",
     "main.bdf20a04.css.map": "/Taxi-Services/static/css/main.bdf20a04.css.map",
-    "main.283cf876.js.map": "/Taxi-Services/static/js/main.283cf876.js.map",
+    "main.ca367784.js.map": "/Taxi-Services/static/js/main.ca367784.js.map",
     "453.fa5cb48b.chunk.js.map": "/Taxi-Services/static/js/453.fa5cb48b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bdf20a04.css",
-    "static/js/main.283cf876.js"
+    "static/js/main.ca367784.js"
   ]
 }
