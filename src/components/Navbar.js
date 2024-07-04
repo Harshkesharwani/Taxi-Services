@@ -24,9 +24,8 @@ const Navbar = () => {
             src={logo}
             alt="Taxi Service Logo"
             sx={{
-              width: { xs: '40px', sm: '50px' }, // Responsive width
-              height: 'auto', // Maintain aspect ratio
-              // marginBottom: { xs: '12px', sm: '16px' }, // Responsive margin
+              width: { xs: '40px', sm: '50px' },
+              height: 'auto',
             }}
           />
           <Typography variant="h6" sx={{ flexGrow: 1, color: 'white' }}>
