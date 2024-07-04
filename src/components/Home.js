@@ -111,11 +111,16 @@ const Home = () => {
           <Typography variant="h2" component="h1" gutterBottom sx={{ color: 'white' }}>
             Welcome to
           </Typography>
-          <Typography variant="h2" component="h1" gutterBottom className="animated-text">
-            Taxi Service
-          </Typography>
+          <Box>
+            <Typography variant="h2" component="h1" gutterBottom className="animated-text">
+              ANYTIME TRAVELS
+            </Typography>
+            <Typography variant="h6" component="h6" gutterBottom sx={{ color: 'white' }}>
+              ANYTIME ANYWHERE ANYDISTANCE
+            </Typography>
+          </Box>
           <Typography variant="h5" gutterBottom sx={{ color: 'white' }}>
-            Get Taxi Now: <span className="animated-text">800-5-800</span>
+            Get Cab Now: <span className="animated-text">+91 - 7869155502,+91 - 9171494000,+91 - 7714020520</span>
           </Typography>
           <img src={car} alt="Taxi" className="car-image" style={{ position: 'relative', width: '40%', maxHeight: '400px', bottom: '10%' }} />
           <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
@@ -379,18 +384,6 @@ const Home = () => {
         </Container>
       </Box> */}
 
-      {/* 24/7 services Section */}
-      <Box sx={{ bgcolor: 'white', color: 'black', py: 8, boxShadow: 3 }}>
-        <Container>
-          <Typography variant="h4" textAlign="center">
-            24/7 Customer <span style={{ color: 'yellow' }}>Service</span>
-          </Typography>
-          <Typography variant="body1" textAlign="center" mt={2}>
-            A Dedicated 24x7 Customer Service Team Is Usually At Your Service To Assist Solve Any Problem.
-          </Typography>
-        </Container>
-      </Box>
-
       {/* FAQ Section */}
       <Box sx={{ bgcolor: '#1a1a1a', py: 8, color: 'white' }}>
         <Container>
@@ -460,6 +453,17 @@ const Home = () => {
         </Container>
       </Box>
 
+      {/* 24/7 services Section */}
+      <Box sx={{ bgcolor: 'white', color: 'black', py: 8, boxShadow: 3 }}>
+        <Container>
+          <Typography variant="h4" textAlign="center">
+            24/7 Customer <span style={{ color: 'yellow' }}>Service</span>
+          </Typography>
+          <Typography variant="body1" textAlign="center" mt={2}>
+            A Dedicated 24x7 Customer Service Team Is Usually At Your Service To Assist Solve Any Problem.
+          </Typography>
+        </Container>
+      </Box>
 
       {/* Partners Section */}
       <Box sx={{ bgcolor: '#151515', color: 'white', py: 8 }}>
@@ -480,7 +484,7 @@ const Home = () => {
                     <Grid item>
                       <Typography variant="h6">Visit Our Website</Typography>
                       <Typography variant="body2">
-                        Visit Our Website By Google Search Or Log On http://taxiservice.com/
+                        Visit Our Website By Google Search Or Log On http://anytimetravels.in/
                       </Typography>
                     </Grid>
                   </Grid>
