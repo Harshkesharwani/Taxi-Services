@@ -4,7 +4,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
 import logo from '../assets/favicon.png'
 
-
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
 

@@ -1,5 +1,3 @@
-// src/components/FloatingIcons.js
-
 import React from 'react';
 import { Box, IconButton } from '@mui/material';
 import PhoneIcon from '@mui/icons-material/Phone';

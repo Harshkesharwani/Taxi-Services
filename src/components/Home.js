@@ -23,9 +23,8 @@ import PaymentIcon from '@mui/icons-material/Payment';
 
 import car from '../assets/car.png';
 import bgImage from '../assets/bg1.jpg';
-import playstoreImage from "../assets/ps.png"
-import iosImage from "../assets/ios.png"
-// import TaxiImage from '';
+import playstoreImage from "../assets/ps.png";
+import iosImage from "../assets/ios.png";
 
 const images = [
   { src: 'https://stimg.cardekho.com/images/carexteriorimages/930x620/Hyundai/i20/9471/1697696007962/front-left-side-47.jpg', title: 'Hatchback', type: 'Hatchback' },

@@ -3,8 +3,6 @@ import { Box, Container, Grid, Typography, IconButton } from '@mui/material';
 import { styled } from '@mui/system';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
-// import PhoneIcon from '@mui/icons-material/Phone';
-// import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import logo from '../assets/logo.png'
 
 const FooterLink = styled(Typography)({
@@ -18,14 +16,6 @@ const Footer = () => {
   const handleLinkClick = (url) => {
     window.open(url, '_blank');
   };
-
-  // const handlePhoneClick = () => {
-  //   window.location.href = 'tel:+1234567890'; // Replace with your phone number
-  // };
-
-  // const handleWhatsAppClick = () => {
-  //   window.location.href = 'https://wa.me/1234567890'; // Replace with your WhatsApp number
-  // };
 
   return (
     <Box sx={{ bgcolor: '#ffd700', color: 'black', py: 4 }}>

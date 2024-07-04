@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Typography, Box, TextField, Button } from '@mui/material';
-// import Image from 'next/image'; // If you are using Next.js, else use 'img' tag or other methods to include the image.
 
 const ContactUs = () => {
   return (
