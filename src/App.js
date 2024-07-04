@@ -27,7 +27,7 @@ function Main() {
   };
 
   const handleWhatsAppClick = () => {
-    window.location.href = 'https://wa.me/+917869155502'; // Replace with your WhatsApp number
+    window.location.href = 'https://wa.me/7869155502'; // Replace with your WhatsApp number
   };
   return (
     <>
