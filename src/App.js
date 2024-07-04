@@ -23,14 +23,6 @@ function App() {
 function Main() {
   const location = useLocation();
 
-  const handlePhoneClick = () => {
-    window.location.href = 'tel:+917869155502'; // Replace with your phone number
-  };
-
-  const handleWhatsAppClick = () => {
-    window.location.href = 'https://wa.me/+917869155502'; // Replace with your WhatsApp number
-  };
-
   return (
     <>
       <TransitionGroup>
