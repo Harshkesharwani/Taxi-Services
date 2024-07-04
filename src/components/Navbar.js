@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, Button, Box, IconButton, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link } from 'react-router-dom';
+import logo from '../assets/favicon.png'
+
 
 const Navbar = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -17,8 +19,18 @@ const Navbar = () => {
     <>
       <AppBar sx={{ bgcolor: '#151515', boxShadow: 'none' }}>
         <Toolbar>
+          <Box
+            component="img"
+            src={logo}
+            alt="Taxi Service Logo"
+            sx={{
+              width: { xs: '40px', sm: '50px' }, // Responsive width
+              height: 'auto', // Maintain aspect ratio
+              // marginBottom: { xs: '12px', sm: '16px' }, // Responsive margin
+            }}
+          />
           <Typography variant="h6" sx={{ flexGrow: 1, color: 'white' }}>
-            Taxi Service
+            {/* ANYTIME TRAVELS */}
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             <Button component={Link} to="/" sx={{ color: 'white' }}>Home</Button>
